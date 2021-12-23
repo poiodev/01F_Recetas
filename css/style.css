@@ -49,8 +49,9 @@ nav ul li{
 
 nav ul {
 	padding-top: 90px;
+	display: inline-flex;
+
 	
-	float: right;
 }
  nav ul li a{
 	 text-decoration: none;
@@ -91,7 +92,7 @@ img {
 
 .fp-video{
 	width: 55%;
-	padding: 2em;
+	padding: 2em; /*tamaño del font-size :del elemento actual*/
 }
 
 .ft-art{
@@ -165,3 +166,7 @@ footer{
 	text-align: center;
 	padding: 45px;
 }
+
+/* #saludable {
+	background-color: #1FBEA4;
+} */
